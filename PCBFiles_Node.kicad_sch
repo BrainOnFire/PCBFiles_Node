@@ -95,6 +95,25 @@
   )
 
 
+  (symbol (lib_id "Device:R_Photo") (at 104.14 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 692d87e9-6b70-46cc-9c78-b75193a484cc)
+    (property "Reference" "R?" (id 0) (at 105.918 89.2615 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R_Photo" (id 1) (at 105.918 92.0366 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 105.41 96.52 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 104.14 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a6706c54-6a82-42d1-a6c9-48341690e19d))
+    (pin "2" (uuid 4f2f68c4-6fa0-45ce-b5c2-e911daddcd12))
+  )
+
   (symbol (lib_id "Device:R_Photo") (at 128.27 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid af347946-e3da-4427-87ab-77b747929f50)
@@ -119,6 +138,9 @@
   )
 
   (symbol_instances
+    (path "/692d87e9-6b70-46cc-9c78-b75193a484cc"
+      (reference "R?") (unit 1) (value "R_Photo") (footprint "")
+    )
     (path "/af347946-e3da-4427-87ab-77b747929f50"
       (reference "R?") (unit 1) (value "R_Photo") (footprint "")
     )
