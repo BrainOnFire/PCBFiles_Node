@@ -1673,7 +1673,6 @@
     )
   )
 
-
   (junction (at 53.975 92.075) (diameter 0) (color 0 0 0 0)
     (uuid 0c01a9da-c40b-41cb-8ce2-f55d315849ec)
   )
@@ -3145,7 +3144,7 @@
     (property "Value" "MountingHole" (id 1) (at 176.53 36.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 173.99 34.925 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 173.99 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 173.99 34.925 0)
@@ -3692,7 +3691,7 @@
     (property "Value" "MountingHole" (id 1) (at 176.53 30.4416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 173.99 28.575 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 173.99 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 173.99 28.575 0)
@@ -4114,10 +4113,10 @@
       (reference "D3") (unit 1) (value "Red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/c622662f-0f4f-4648-9d2c-6ac4dc78f976"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/3b00fbcb-c057-4240-b7a6-4dd3be7f0496"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/8397bcb6-889d-4112-9b1d-1609ea642902"
       (reference "J1") (unit 1) (value "Input") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
